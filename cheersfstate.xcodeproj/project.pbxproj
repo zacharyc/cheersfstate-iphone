@@ -21,6 +21,23 @@
 		A6B2366318AC4EF00096DB11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B2364518AC4EF00096DB11 /* UIKit.framework */; };
 		A6B2366B18AC4EF00096DB11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6B2366918AC4EF00096DB11 /* InfoPlist.strings */; };
 		A6B2366D18AC4EF00096DB11 /* cheersfstateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B2366C18AC4EF00096DB11 /* cheersfstateTests.m */; };
+		A6B236BC18B2E12E0096DB11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B2364518AC4EF00096DB11 /* UIKit.framework */; };
+		A6B236BD18B2E12E0096DB11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B2364118AC4EF00096DB11 /* Foundation.framework */; };
+		A6B236BE18B2E12E0096DB11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B2364318AC4EF00096DB11 /* CoreGraphics.framework */; };
+		A6B236C418B2E12E0096DB11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6B236C218B2E12E0096DB11 /* InfoPlist.strings */; };
+		A6B236C618B2E12E0096DB11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B236C518B2E12E0096DB11 /* main.m */; };
+		A6B236CA18B2E12F0096DB11 /* Cedar-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B236C918B2E12F0096DB11 /* Cedar-iOS.framework */; };
+		A6B236CC18B2E12F0096DB11 /* ExampleSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = A6B236CB18B2E12F0096DB11 /* ExampleSpec.mm */; };
+		A6B236D818B2E8230096DB11 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B236D718B2E8230096DB11 /* AboutViewController.m */; };
+		A6B236D918B2E8230096DB11 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B236D718B2E8230096DB11 /* AboutViewController.m */; };
+		A6B236DC18B2E8640096DB11 /* AboutViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = A6B236DB18B2E8640096DB11 /* AboutViewControllerSpec.mm */; };
+		A6D37B3118C139F300CDD55A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B2365318AC4EF00096DB11 /* Main.storyboard */; };
+		A6E53BF818B9162500883CDA /* cheerleaders.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6E53BF718B9162500883CDA /* cheerleaders.plist */; };
+		A6E53BF918B9162500883CDA /* cheerleaders.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6E53BF718B9162500883CDA /* cheerleaders.plist */; };
+		A6E8BFBC18C6C864000E19EE /* cheers.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6E8BFBB18C6C864000E19EE /* cheers.plist */; };
+		A6E8BFBD18C6C864000E19EE /* cheers.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6E8BFBB18C6C864000E19EE /* cheers.plist */; };
+		A6E8BFC018C6CA6C000E19EE /* CheerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E8BFBF18C6CA6C000E19EE /* CheerListViewController.m */; };
+		A6E8BFC118C6CA6C000E19EE /* CheerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E8BFBF18C6CA6C000E19EE /* CheerListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,21 +55,36 @@
 		A6B2364118AC4EF00096DB11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A6B2364318AC4EF00096DB11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A6B2364518AC4EF00096DB11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A6B2364918AC4EF00096DB11 /* cheersfstate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cheersfstate-Info.plist"; sourceTree = "<group>"; };
+		A6B2364918AC4EF00096DB11 /* cheersfstate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "cheersfstate-Info.plist"; path = "../../cheersfstate/cheersfstate-Info.plist"; sourceTree = "<group>"; };
 		A6B2364B18AC4EF00096DB11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A6B2364D18AC4EF00096DB11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A6B2364F18AC4EF00096DB11 /* cheersfstate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cheersfstate-Prefix.pch"; sourceTree = "<group>"; };
-		A6B2365018AC4EF00096DB11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A6B2365118AC4EF00096DB11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6B2364D18AC4EF00096DB11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../cheersfstate/main.m; sourceTree = "<group>"; };
+		A6B2364F18AC4EF00096DB11 /* cheersfstate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "cheersfstate-Prefix.pch"; path = "../../cheersfstate/cheersfstate-Prefix.pch"; sourceTree = "<group>"; };
+		A6B2365018AC4EF00096DB11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../cheersfstate/AppDelegate.h; sourceTree = "<group>"; };
+		A6B2365118AC4EF00096DB11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../cheersfstate/AppDelegate.m; sourceTree = "<group>"; };
 		A6B2365418AC4EF00096DB11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A6B2365618AC4EF00096DB11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A6B2365718AC4EF00096DB11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A6B2365918AC4EF00096DB11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A6B2365618AC4EF00096DB11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../cheersfstate/ViewController.h; sourceTree = "<group>"; };
+		A6B2365718AC4EF00096DB11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../cheersfstate/ViewController.m; sourceTree = "<group>"; };
+		A6B2365918AC4EF00096DB11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../cheersfstate/Images.xcassets; sourceTree = "<group>"; };
 		A6B2365F18AC4EF00096DB11 /* cheersfstateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cheersfstateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6B2366018AC4EF00096DB11 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A6B2366818AC4EF00096DB11 /* cheersfstateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cheersfstateTests-Info.plist"; sourceTree = "<group>"; };
 		A6B2366A18AC4EF00096DB11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A6B2366C18AC4EF00096DB11 /* cheersfstateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cheersfstateTests.m; sourceTree = "<group>"; };
+		A6B236BB18B2E12E0096DB11 /* cheersfstate specs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cheersfstate specs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B236C118B2E12E0096DB11 /* cheersfstate specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cheersfstate specs-Info.plist"; sourceTree = "<group>"; };
+		A6B236C318B2E12E0096DB11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6B236C518B2E12E0096DB11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6B236C718B2E12E0096DB11 /* cheersfstate specs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cheersfstate specs-Prefix.pch"; sourceTree = "<group>"; };
+		A6B236C818B2E12E0096DB11 /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		A6B236C918B2E12F0096DB11 /* Cedar-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cedar-iOS.framework"; path = "Frameworks/Cedar-iOS.framework"; sourceTree = "<group>"; };
+		A6B236CB18B2E12F0096DB11 /* ExampleSpec.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ExampleSpec.mm; sourceTree = "<group>"; };
+		A6B236D618B2E8230096DB11 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		A6B236D718B2E8230096DB11 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		A6B236DB18B2E8640096DB11 /* AboutViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AboutViewControllerSpec.mm; sourceTree = "<group>"; };
+		A6E53BF718B9162500883CDA /* cheerleaders.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cheerleaders.plist; sourceTree = "<group>"; };
+		A6E8BFBB18C6C864000E19EE /* cheers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cheers.plist; sourceTree = "<group>"; };
+		A6E8BFBE18C6CA6C000E19EE /* CheerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheerListViewController.h; sourceTree = "<group>"; };
+		A6E8BFBF18C6CA6C000E19EE /* CheerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheerListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,15 +108,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A6B236B818B2E12E0096DB11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B236BE18B2E12E0096DB11 /* CoreGraphics.framework in Frameworks */,
+				A6B236BC18B2E12E0096DB11 /* UIKit.framework in Frameworks */,
+				A6B236CA18B2E12F0096DB11 /* Cedar-iOS.framework in Frameworks */,
+				A6B236BD18B2E12E0096DB11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		A6B2363518AC4EF00096DB11 = {
 			isa = PBXGroup;
 			children = (
-				A6B2364718AC4EF00096DB11 /* cheersfstate */,
+				A6B236D018B2E3900096DB11 /* App */,
 				A6B2366618AC4EF00096DB11 /* cheersfstateTests */,
+				A6B236BF18B2E12E0096DB11 /* cheersfstate specs */,
 				A6B2364018AC4EF00096DB11 /* Frameworks */,
+				A6E2807E18B6C4B800CD0124 /* Resources */,
+				A6B236D318B2E4800096DB11 /* Specs */,
 				A6B2363F18AC4EF00096DB11 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +140,7 @@
 			children = (
 				A6B2363E18AC4EF00096DB11 /* cheersfstate.app */,
 				A6B2365F18AC4EF00096DB11 /* cheersfstateTests.xctest */,
+				A6B236BB18B2E12E0096DB11 /* cheersfstate specs.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,31 +154,6 @@
 				A6B2366018AC4EF00096DB11 /* XCTest.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A6B2364718AC4EF00096DB11 /* cheersfstate */ = {
-			isa = PBXGroup;
-			children = (
-				A6B2365018AC4EF00096DB11 /* AppDelegate.h */,
-				A6B2365118AC4EF00096DB11 /* AppDelegate.m */,
-				A6B2365318AC4EF00096DB11 /* Main.storyboard */,
-				A6B2365618AC4EF00096DB11 /* ViewController.h */,
-				A6B2365718AC4EF00096DB11 /* ViewController.m */,
-				A6B2365918AC4EF00096DB11 /* Images.xcassets */,
-				A6B2364818AC4EF00096DB11 /* Supporting Files */,
-			);
-			path = cheersfstate;
-			sourceTree = "<group>";
-		};
-		A6B2364818AC4EF00096DB11 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A6B2364918AC4EF00096DB11 /* cheersfstate-Info.plist */,
-				A6B2364A18AC4EF00096DB11 /* InfoPlist.strings */,
-				A6B2364D18AC4EF00096DB11 /* main.m */,
-				A6B2364F18AC4EF00096DB11 /* cheersfstate-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		A6B2366618AC4EF00096DB11 /* cheersfstateTests */ = {
@@ -150,6 +172,106 @@
 				A6B2366918AC4EF00096DB11 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6B236BF18B2E12E0096DB11 /* cheersfstate specs */ = {
+			isa = PBXGroup;
+			children = (
+				A6B236C818B2E12E0096DB11 /* Rakefile */,
+				A6B236C918B2E12F0096DB11 /* Cedar-iOS.framework */,
+				A6B236CB18B2E12F0096DB11 /* ExampleSpec.mm */,
+				A6B236C018B2E12E0096DB11 /* Supporting Files */,
+			);
+			path = "cheersfstate specs";
+			sourceTree = "<group>";
+		};
+		A6B236C018B2E12E0096DB11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6B236C118B2E12E0096DB11 /* cheersfstate specs-Info.plist */,
+				A6B236C218B2E12E0096DB11 /* InfoPlist.strings */,
+				A6B236C518B2E12E0096DB11 /* main.m */,
+				A6B236C718B2E12E0096DB11 /* cheersfstate specs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6B236D018B2E3900096DB11 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A6B236D118B2E3B60096DB11 /* Domain */,
+				A6B236D218B2E4420096DB11 /* UI */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A6B236D118B2E3B60096DB11 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		A6B236D218B2E4420096DB11 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A6B2365018AC4EF00096DB11 /* AppDelegate.h */,
+				A6B2365118AC4EF00096DB11 /* AppDelegate.m */,
+				A6B2364918AC4EF00096DB11 /* cheersfstate-Info.plist */,
+				A6B2364F18AC4EF00096DB11 /* cheersfstate-Prefix.pch */,
+				A6B236D518B2E4CA0096DB11 /* Controllers */,
+				A6B2365918AC4EF00096DB11 /* Images.xcassets */,
+				A6B2364A18AC4EF00096DB11 /* InfoPlist.strings */,
+				A6B2364D18AC4EF00096DB11 /* main.m */,
+				A6B2365318AC4EF00096DB11 /* Main.storyboard */,
+				A6B2365618AC4EF00096DB11 /* ViewController.h */,
+				A6B2365718AC4EF00096DB11 /* ViewController.m */,
+				A6E8BFBE18C6CA6C000E19EE /* CheerListViewController.h */,
+				A6E8BFBF18C6CA6C000E19EE /* CheerListViewController.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A6B236D318B2E4800096DB11 /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				A6B236D418B2E4970096DB11 /* UI */,
+			);
+			path = Specs;
+			sourceTree = "<group>";
+		};
+		A6B236D418B2E4970096DB11 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A6B236DA18B2E8410096DB11 /* Controllers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A6B236D518B2E4CA0096DB11 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6B236D618B2E8230096DB11 /* AboutViewController.h */,
+				A6B236D718B2E8230096DB11 /* AboutViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A6B236DA18B2E8410096DB11 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6B236DB18B2E8640096DB11 /* AboutViewControllerSpec.mm */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A6E2807E18B6C4B800CD0124 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6E53BF718B9162500883CDA /* cheerleaders.plist */,
+				A6E8BFBB18C6C864000E19EE /* cheers.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +312,23 @@
 			productReference = A6B2365F18AC4EF00096DB11 /* cheersfstateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		A6B236BA18B2E12E0096DB11 /* cheersfstate specs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6B236CD18B2E12F0096DB11 /* Build configuration list for PBXNativeTarget "cheersfstate specs" */;
+			buildPhases = (
+				A6B236B718B2E12E0096DB11 /* Sources */,
+				A6B236B818B2E12E0096DB11 /* Frameworks */,
+				A6B236B918B2E12E0096DB11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cheersfstate specs";
+			productName = "cheersfstate specs";
+			productReference = A6B236BB18B2E12E0096DB11 /* cheersfstate specs.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -219,6 +358,7 @@
 			targets = (
 				A6B2363D18AC4EF00096DB11 /* cheersfstate */,
 				A6B2365E18AC4EF00096DB11 /* cheersfstateTests */,
+				A6B236BA18B2E12E0096DB11 /* cheersfstate specs */,
 			);
 		};
 /* End PBXProject section */
@@ -231,6 +371,8 @@
 				A6B2365A18AC4EF00096DB11 /* Images.xcassets in Resources */,
 				A6B2364C18AC4EF00096DB11 /* InfoPlist.strings in Resources */,
 				A6B2365518AC4EF00096DB11 /* Main.storyboard in Resources */,
+				A6E53BF818B9162500883CDA /* cheerleaders.plist in Resources */,
+				A6E8BFBC18C6C864000E19EE /* cheers.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +384,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A6B236B918B2E12E0096DB11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E8BFBD18C6C864000E19EE /* cheers.plist in Resources */,
+				A6D37B3118C139F300CDD55A /* Main.storyboard in Resources */,
+				A6B236C418B2E12E0096DB11 /* InfoPlist.strings in Resources */,
+				A6E53BF918B9162500883CDA /* cheerleaders.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -249,8 +402,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6E8BFC018C6CA6C000E19EE /* CheerListViewController.m in Sources */,
 				A6B2365818AC4EF00096DB11 /* ViewController.m in Sources */,
 				A6B2365218AC4EF00096DB11 /* AppDelegate.m in Sources */,
+				A6B236D818B2E8230096DB11 /* AboutViewController.m in Sources */,
 				A6B2364E18AC4EF00096DB11 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +415,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6B2366D18AC4EF00096DB11 /* cheersfstateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B236B718B2E12E0096DB11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E8BFC118C6CA6C000E19EE /* CheerListViewController.m in Sources */,
+				A6B236D918B2E8230096DB11 /* AboutViewController.m in Sources */,
+				A6B236C618B2E12E0096DB11 /* main.m in Sources */,
+				A6B236CC18B2E12F0096DB11 /* ExampleSpec.mm in Sources */,
+				A6B236DC18B2E8640096DB11 /* AboutViewControllerSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +447,7 @@
 				A6B2364B18AC4EF00096DB11 /* en */,
 			);
 			name = InfoPlist.strings;
+			path = ../../cheersfstate;
 			sourceTree = "<group>";
 		};
 		A6B2365318AC4EF00096DB11 /* Main.storyboard */ = {
@@ -288,12 +456,21 @@
 				A6B2365418AC4EF00096DB11 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../../cheersfstate;
 			sourceTree = "<group>";
 		};
 		A6B2366918AC4EF00096DB11 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A6B2366A18AC4EF00096DB11 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6B236C218B2E12E0096DB11 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B236C318B2E12E0096DB11 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -441,6 +618,55 @@
 			};
 			name = Release;
 		};
+		A6B236CE18B2E12F0096DB11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/zacharyc/Projects/cheersfstate/cheersfstate\\ specs/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cheersfstate specs/cheersfstate specs-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "cheersfstate specs/cheersfstate specs-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6B236CF18B2E12F0096DB11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/zacharyc/Projects/cheersfstate/cheersfstate\\ specs/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cheersfstate specs/cheersfstate specs-Prefix.pch";
+				INFOPLIST_FILE = "cheersfstate specs/cheersfstate specs-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -460,6 +686,7 @@
 				A6B2367218AC4EF00096DB11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6B2367318AC4EF00096DB11 /* Build configuration list for PBXNativeTarget "cheersfstateTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +695,16 @@
 				A6B2367518AC4EF00096DB11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6B236CD18B2E12F0096DB11 /* Build configuration list for PBXNativeTarget "cheersfstate specs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B236CE18B2E12F0096DB11 /* Debug */,
+				A6B236CF18B2E12F0096DB11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
